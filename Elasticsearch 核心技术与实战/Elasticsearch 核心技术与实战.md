@@ -30,3 +30,9 @@
   ```
   
   http://localhost:9200/_cat/nodes
+
+### 06 | Kibana 的安装与界面快速浏览
+
+`.\bin\kibana.bat`
+
+http://localhost:5601/
