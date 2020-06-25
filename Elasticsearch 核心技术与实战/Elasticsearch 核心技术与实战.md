@@ -36,3 +36,7 @@
 `.\bin\kibana.bat`
 
 http://localhost:5601/
+
+### 08 | Logstash 安装与导入数据
+
+`.\bin\logstash -f .\config\logstash.conf`
