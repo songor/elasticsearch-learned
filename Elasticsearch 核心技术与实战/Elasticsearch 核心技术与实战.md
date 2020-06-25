@@ -40,3 +40,35 @@ http://localhost:5601/
 ### 08 | Logstash 安装与导入数据
 
 `.\bin\logstash -f .\config\logstash.conf`
+
+### 09 | 基本概念：索引、文档和 REST API
+
+* 文档
+
+  Elasticsearch 是面向文档的，文档是所有可搜索数据的最小单位
+
+  文档会被序列化成 JSON 格式，保存在 Elasticsearch 中
+
+  每个文档都有一个 Unique ID
+
+* 元数据
+
+  \_index，\_type，\_id，\_source，\_version，\_score
+
+* 索引
+
+  索引是文档的容器，是一类文档的结合
+
+  逻辑空间的概念
+
+  Mapping 定义文档字段的类型
+
+  Setting 定义不同的数据分布
+
+* REST API
+
+  `GET movies`
+
+  `GET movies/_count`
+
+  `POST movies/_search`
